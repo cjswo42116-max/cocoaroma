@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPA CoCoAroma — Aroma Spa near Hamdeok Beach, Jeju</title>
+  <meta name="description" content="A private aroma spa near Hamdeok Beach, Jeju. Bamboo therapy, aroma sauna and Jeju aroma therapy — English menu, booking via WhatsApp.">
+
+  <!-- Open Graph (TODO: switch og:image to absolute URL at deploy) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SPA CoCoAroma — Aroma Spa near Hamdeok Beach, Jeju">
+  <meta property="og:description" content="A touch of Jeju that clears what time leaves behind. English menu · Book via WhatsApp.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Karla:wght@400;500;600&family=Noto+Serif+KR:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preload" as="image" href="assets/img/hero.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DaySpa",
+    "name": "SPA CoCoAroma",
+    "description": "Private aroma spa near Hamdeok Beach, Jeju. Bamboo therapy, aroma sauna, Jeju aroma therapy. English menu, booking via WhatsApp.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2F, Shinhyup Bank Building, 550 Sinbuk-ro, Jocheon-eup",
+      "addressLocality": "Jeju-si",
+      "addressRegion": "Jeju-do",
+      "addressCountry": "KR"
+    },
+    "telephone": "+82-10-3072-1527",
+    "priceRange": "₩50,000–₩300,000",
+    "sameAs": [
+      "https://www.instagram.com/_coco_aroma",
+      "https://www.tripadvisor.com/Attraction_Review-g297885-d32988429-Reviews-Hamdeok_Coco_Aroma-Jeju_Jeju_Island.html"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip" href="#choose">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a class="nav-brand" href="#top">SPA CoCoAroma</a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#treatments">Treatments</a>
+      <a href="#experience">Experience</a>
+      <a href="#visit">Visit</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-solid nav-cta" href="https://wa.me/821030721527?text=Hello!%20I%27d%20like%20to%20book%20at%20SPA%20CoCoAroma%20:)%0A-%20Name:%20%0A-%20Date%20%26%20time:%20%0A-%20Treatment:%20%0A-%20Number%20of%20guests:%20" target="_blank" rel="noopener">Book on WhatsApp</a>
+  </header>
+
+  <main>
+
+  <!-- ============ 1 · HERO ============ -->
+  <section class="hero">
+    <img class="hero-img" src="assets/img/hero.jpg" alt="A guest in a gown resting in the warm light of the spa" fetchpriority="high">
+    <div class="hero-veil" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="eyebrow">Hamdeok · Jeju Island</p>
+      <h1>A touch of Jeju that clears<br>what time leaves behind.</h1>
+      <p class="hero-sub">Fullness (充滿) — a private aroma spa near Hamdeok Beach.</p>
+      <ul class="chips" aria-label="Good to know">
+        <li>English menu</li>
+        <li>Book via WhatsApp</li>
+        <li>Cards &amp; Apple Pay</li>
+      </ul>
+      <div class="hero-cta">
+        <a class="btn btn-solid" href="https://wa.me/821030721527?text=Hello!%20I%27d%20like%20to%20book%20at%20SPA%20CoCoAroma%20:)%0A-%20Name:%20%0A-%20Date%20%26%20time:%20%0A-%20Treatment:%20%0A-%20Number%20of%20guests:%20" target="_blank" rel="noopener">Book on WhatsApp</a>
+        <a class="btn btn-ghost" href="#choose">See treatments</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2 · FOR THE TRAVELER ============ -->
+  <section class="traveler" id="traveler">
+    <div class="traveler-text reveal">
+      <p class="eyebrow">For the traveler</p>
+      <blockquote>
+        “Your body is here, but you’re somewhere else — still carrying yesterday’s
+        fatigue, already bracing for tomorrow. That distance is what quietly exhausts us.”
+      </blockquote>
+      <p class="body-text">
+        To feel the present fully, we need to wake the senses — release what’s
+        accumulated, and let something alive take its place.
+      </p>
+      <p class="body-text soft">
+        Born on Jeju, where the wind never rests, this therapy has been shaped over
+        time to the bodies of the people who live with it. Letting the cold, dry
+        tension accumulated in the body flow away, through the warmth of aroma and
+        a touch of Jeju — this is CoCoAroma’s philosophy of release.
+      </p>
+    </div>
+    <figure class="traveler-photo reveal">
+      <img src="assets/img/traveler.jpg" alt="A guest sitting quietly on the edge of the treatment bed" loading="lazy">
+    </figure>
+  </section>
+
+  <!-- ============ 3 · MOST TRAVELERS CHOOSE ============ -->
+  <section class="choose" id="choose">
+    <div class="section-head reveal">
+      <p class="eyebrow">Not sure where to start?</p>
+      <h2>Most travelers choose</h2>
+      <a class="menu-jump" href="#treatments">Full menu &amp; prices — from ₩100,000 →</a>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <figure><img src="assets/img/card-face.jpg" alt="Warm bamboo facial therapy along the jawline" loading="lazy"></figure>
+        <div class="card-body">
+          <p class="tag">Signature</p>
+          <h3>Bamboo Face Reset</h3>
+          <p class="card-desc">Warm bamboo releases the tension locked in the face — your natural contours return.</p>
+          <p class="card-hotcold"><span>Hot</span> warm bamboo · <span>Cold</span> cooled bamboo, gentle on sensitive skin</p>
+          <p class="card-note">Led personally by our head therapist — one guest per session.</p>
+          <p class="meta">90 min · ₩150,000</p>
+          <a class="card-link" href="https://wa.me/821030721527?text=Hello!%20I%27d%20like%20to%20book%20at%20SPA%20CoCoAroma%20:)%0A-%20Name:%20%0A-%20Date%20%26%20time:%20%0A-%20Treatment:%20Bamboo%20Face%20Reset%20(90%20min%2C%20HOT%20or%20COLD)%0A-%20Number%20of%20guests:%20" target="_blank" rel="noopener">Book this →</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <figure><img src="assets/img/card-stone.jpg" alt="Hands-on aroma therapy across the shoulders" loading="lazy"></figure>
+        <div class="card-body">
+          <p class="tag">Recommended</p>
+          <h3>Jeju Body Aroma Stone Therapy</h3>
+          <p class="card-desc">Warm stones and hands-on care for the whole body, abdomen excluded.</p>
+          <p class="meta">100 min · ₩130,000</p>
+          <a class="card-link" href="https://wa.me/821030721527?text=Hello!%20I%27d%20like%20to%20book%20at%20SPA%20CoCoAroma%20:)%0A-%20Name:%20%0A-%20Date%20%26%20time:%20%0A-%20Treatment:%20Jeju%20Body%20Aroma%20Stone%20Therapy%20(100%20min)%0A-%20Number%20of%20guests:%20" target="_blank" rel="noopener">Book this →</a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <figure><img src="assets/img/card-body.jpg" alt="Focused bamboo therapy with a warm bamboo stick" loading="lazy"></figure>
+        <div class="card-body">
+          <p class="tag">Short on time</p>
+          <h3>Bamboo Focused Body</h3>
+          <p class="card-desc">A focused release centered on the back — the warm energy of bamboo melts the knots held deep in the muscle.</p>
+          <p class="meta">60 min · ₩120,000</p>
+          <a class="card-link" href="https://wa.me/821030721527?text=Hello!%20I%27d%20like%20to%20book%20at%20SPA%20CoCoAroma%20:)%0A-%20Name:%20%0A-%20Date%20%26%20time:%20%0A-%20Treatment:%20Bamboo%20Focused%20Body%20(60%20min)%0A-%20Number%20of%20guests:%20" target="_blank" rel="noopener">Book this →</a>
+        </div>
+      </article>
+    </div>
+    <p class="choose-note reveal">First visit? <a href="https://wa.me/821030721527?text=Hello!%20It%27s%20my%20first%20visit%20to%20SPA%20CoCoAroma%20—%20could%20you%20help%20me%20choose%20a%20treatment%3F" target="_blank" rel="noopener">Message us on WhatsApp</a> — we’ll help you choose.</p>
+  </section>
+
+  <!-- ============ 4 · TREATMENTS & PRICES ============ -->
+  <section class="menu" id="treatments">
+    <div class="section-head reveal">
+      <p class="eyebrow">Treatments &amp; prices</p>
+      <h2>The menu</h2>
+    </div>
+
+    <!-- Signature Reset -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head">
+        <h3>Signature Reset</h3>
+        <span class="cat-kicker">[ Vegan &amp; Bamboo ]</span>
+      </div>
+      <div class="triptych">
+        <div><h4>Face Reset</h4><p>When your face needs a refresh — your natural contours return.</p></div>
+        <div><h4>Cervical Reset</h4><p>When a tight neck leaves your head feeling heavy — your natural lightness returns.</p></div>
+        <div><h4>Body Reset</h4><p>When your whole body needs a reset — your natural flow returns.</p></div>
+      </div>
+      <ul class="rows">
+        <li class="row"><div class="row-name">Bamboo Face Reset · Deep Renewal <span class="pill">Hot</span><span class="row-note">gently warmed bamboo</span></div><div class="row-meta">90 min · ₩150,000</div></li>
+        <li class="row"><div class="row-name">Bamboo Face Reset · Clear Renewal <span class="pill">Cold</span><span class="row-note">cooled bamboo, gentle on sensitive skin</span></div><div class="row-meta">90 min · ₩150,000</div></li>
+        <li class="row"><div class="row-name">Bamboo Neck &amp; Head<span class="row-note">from the cervical spine to the scalp</span></div><div class="row-meta">60 min · ₩120,000</div></li>
+        <li class="row"><div class="row-name">Bamboo Neck &amp; Head · All-in-One <span class="pill">Mineral ball</span><span class="row-note">neck, shoulders and scalp as one flow</span></div><div class="row-meta">90 min · ₩150,000</div></li>
+        <li class="row"><div class="row-name">Bamboo Focused Body <span class="pill">Back</span><span class="row-note">a focused release centered on the back</span></div><div class="row-meta">60 min · ₩120,000</div></li>
+        <li class="row"><div class="row-name">Bamboo Full Body<span class="row-note">long-held tension throughout the body</span></div><div class="row-meta">90 min · ₩150,000</div></li>
+      </ul>
+      <p class="cat-foot">
+        Every Bamboo treatment is led personally by our head therapist —
+        one guest per time slot, so please book ahead.
+      </p>
+    </div>
+
+    <!-- Jeju Aroma Therapy -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head">
+        <h3>Jeju Aroma Therapy</h3>
+        <span class="cat-kicker">Hands-on · Essential oils</span>
+      </div>
+      <p class="cat-intro">
+        Hands-on technique and essential oils, developed the Jeju way. Fingertips and
+        oil move together, slowly releasing what had hardened.
+      </p>
+      <ul class="rows">
+        <li class="row"><div class="row-name">Back Full Body <span class="pill">Partial</span><span class="row-note">hands-on care for the back of the body</span></div><div class="row-meta">70 min · ₩100,000</div></li>
+        <li class="row"><div class="row-name">Full Body · Abdomen Excluded <span class="pill">Hot stone</span></div><div class="row-meta">100 min · ₩130,000</div></li>
+        <li class="row"><div class="row-name">Full Body Complete · Abdomen Included <span class="pill">Hot stone</span></div><div class="row-meta">130 min · ₩160,000</div></li>
+        <li class="row"><div class="row-name">Facial<span class="row-note">face only</span></div><div class="row-meta">70 min · ₩100,000</div></li>
+        <li class="row"><div class="row-name">Face + Back<span class="row-note">body work in service of the face</span></div><div class="row-meta">100 min · ₩130,000</div></li>
+        <li class="row"><div class="row-name">Face + Full Body · Abdomen Excluded <span class="pill">Hot stone</span></div><div class="row-meta">130 min · ₩160,000</div></li>
+      </ul>
+      <p class="cat-foot">
+        Performed with a water-soluble aroma oil. Unscented, so nothing distracts from
+        the work of the therapist’s hands. Any remaining oil is wiped away cleanly to finish.
+      </p>
+    </div>
+
+    <!-- Aroma Sauna -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head">
+        <h3>Aroma Sauna</h3>
+        <span class="cat-kicker">Warmth · Aroma · Release</span>
+      </div>
+      <p class="cat-intro">
+        A process where the cold, dry tension that had hardened leaves the body with
+        your sweat. Warm heat and the warming nature of aroma bring a lightness,
+        as if a heavy coat had been lifted away.
+      </p>
+      <ul class="rows">
+        <li class="row"><div class="row-name">Warm Aroma Sauna <span class="pill">Full body</span><span class="row-note">mineral salt · hands · thermal dome</span></div><div class="row-meta">100 min · ₩200,000</div></li>
+        <li class="row"><div class="row-name">Warm Aroma Sauna · All-in-One <span class="pill">Face + full body</span><span class="row-note">every step flows as one, finishing with a mineral facial</span></div><div class="row-meta">130 min · ₩300,000</div></li>
+      </ul>
+    </div>
+
+    <!-- Add-ons -->
+    <div class="menu-cat reveal">
+      <div class="menu-cat-head">
+        <h3>Add-ons</h3>
+      </div>
+      <ul class="rows rows-compact">
+        <li class="row"><div class="row-name">Foot Therapy</div><div class="row-meta">60 min · ₩80,000</div></li>
+        <li class="row"><div class="row-name">Kids’ Growth Therapy</div><div class="row-meta">60 min · ₩80,000</div></li>
+        <li class="row"><div class="row-name">Mini Facial <span class="pill">Hydration</span></div><div class="row-meta">30 min · ₩50,000</div></li>
+        <li class="row"><div class="row-name">Scalp Therapy</div><div class="row-meta">30 min · ₩50,000</div></li>
+        <li class="row"><div class="row-name">Add Time</div><div class="row-meta">30 min · ₩50,000</div></li>
+      </ul>
+    </div>
+
+    <!-- Traveler Pass -->
+    <aside class="pass reveal">
+      <div>
+        <p class="eyebrow">Membership for traveler</p>
+        <h3>Traveler Pass</h3>
+        <p class="pass-desc">+₩60,000 bonus credit included · 5% back on every card payment ·
+        transferable to family &amp; friends · valid 1 year from purchase</p>
+      </div>
+      <p class="pass-price">₩600,000</p>
+    </aside>
+
+    <p class="menu-foot reveal">
+      Prices in Korean won (₩). 10% VAT is added for card payments.<br>
+      *Please consult your therapist for treatment specifics.
+    </p>
+  </section>
+
+  <!-- ============ 5 · THE EXPERIENCE ============ -->
+  <section class="experience" id="experience">
+    <div class="section-head reveal">
+      <p class="eyebrow">The experience</p>
+      <h2>What happens when you arrive</h2>
+    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <figure><img src="assets/img/exp-footbath.jpg" alt="Feet resting in a warm aroma foot bath" loading="lazy"></figure>
+        <div>
+          <p class="step-no">Step 1</p>
+          <h3>Foot bath &amp; tea</h3>
+          <p>Warm water, aroma powder and oil — and a warm cup of tea. The breath you’ve been holding begins to settle.</p>
+        </div>
+      </li>
+      <li class="step reveal">
+        <figure><img src="assets/img/exp-consult.jpg" alt="A guest filling in the intake form with a body chart" loading="lazy"></figure>
+        <div>
+          <p class="step-no">Step 2</p>
+          <h3>Consultation</h3>
+          <p>Point to where it feels heavy. You don’t need many words here — your body does the talking.</p>
+        </div>
+      </li>
+      <li class="step reveal">
+        <figure><img src="assets/img/film-poster.jpg" alt="Therapist working with warm hands" loading="lazy"></figure>
+        <div>
+          <p class="step-no">Step 3</p>
+          <h3>Therapy</h3>
+          <p>Warm hands, warm bamboo, warm oil. We release what has accumulated.</p>
+        </div>
+      </li>
+      <li class="step reveal">
+        <figure><img src="assets/img/exp-water.jpg" alt="A cup of water on a wooden tray to finish" loading="lazy"></figure>
+        <div>
+          <p class="step-no">Step 4</p>
+          <h3>Water</h3>
+          <p>We finish with a cool glass of water. Take a moment, and step back outside — lighter.</p>
+        </div>
+      </li>
+    </ol>
+    <p class="experience-note reveal">
+      Private rooms only — three single rooms, and rooms for two or three when you come together.
+      Gowns and everything you need are prepared.
+    </p>
+  </section>
+
+  <!-- ============ 6 · FILM ============ -->
+  <!--
+    HOW TO ADD THE VIDEO — fill in ONE of the two below on .film-frame:
+    · YouTube (recommended): set data-yt to the video ID only.
+        e.g. https://youtu.be/AbC123xyZ  →  data-yt="AbC123xyZ"
+        (Upload as "Unlisted" so it only shows to people with the link.)
+    · Self-hosted file: drop your mp4 at assets/video/coco-film.mp4
+        and set data-mp4="assets/video/coco-film.mp4"
+    Leave both empty to keep the "coming soon" state.
+  -->
+  <section class="film reveal" id="film">
+    <div class="section-head">
+      <p class="eyebrow">Film</p>
+      <h2>A quiet look inside</h2>
+    </div>
+    <button class="film-frame" type="button"
+            data-yt="-gO4gIE3Mek"
+            data-mp4=""
+            aria-label="Play the film">
+      <img src="assets/img/traveler.jpg" alt="Inside a treatment room at SPA CoCoAroma" loading="lazy">
+      <span class="film-overlay">
+        <span class="film-play" aria-hidden="true"></span>
+        <span class="film-note">A quiet look at how a session unfolds</span>
+        <span class="film-soon">Film coming soon</span>
+      </span>
+    </button>
+  </section>
+
+  <!-- ============ 7 · REVIEWS ============ -->
+  <section class="reviews" id="reviews">
+    <div class="section-head reveal">
+      <p class="eyebrow">From our guests</p>
+      <h2>Travelers who found us</h2>
+    </div>
+    <div class="quotes">
+      <blockquote class="reveal">
+        “The staff speak some English, so everything was explained clearly.”
+        <cite>— Traveler review, TripAdvisor</cite>
+      </blockquote>
+      <blockquote class="reveal">
+        “Easy to find, right by Hamdeok Beach.”
+        <cite>— Traveler review, TripAdvisor</cite>
+      </blockquote>
+    </div>
+    <p class="reviews-link reveal">
+      <a href="https://www.tripadvisor.com/Attraction_Review-g297885-d32988429-Reviews-Hamdeok_Coco_Aroma-Jeju_Jeju_Island.html" target="_blank" rel="noopener">Read reviews on TripAdvisor →</a>
+    </p>
+  </section>
+
+  <!-- ============ 8 · HOW TO BOOK ============ -->
+  <section class="book" id="book">
+    <div class="section-head reveal">
+      <p class="eyebrow">How to book</p>
+      <h2>One message is enough</h2>
+    </div>
+    <ol class="book-steps reveal">
+      <li>
+        <p class="step-no">1</p>
+        <h3>Message us on WhatsApp</h3>
+        <p>Tap the button — a short template fills in for you. Just add your name, date and treatment.</p>
+      </li>
+      <li>
+        <p class="step-no">2</p>
+        <h3>We confirm</h3>
+        <p>Your time, your treatment, and any questions — answered in English.</p>
+      </li>
+      <li>
+        <p class="step-no">3</p>
+        <h3>Arrive 10 minutes early</h3>
+        <p>Your foot bath comes first. Everything else is already prepared.</p>
+      </li>
+    </ol>
+    <div class="book-cta reveal">
+      <a class="btn btn-solid btn-lg" href="https://wa.me/821030721527?text=Hello!%20I%27d%20like%20to%20book%20at%20SPA%20CoCoAroma%20:)%0A-%20Name:%20%0A-%20Date%20%26%20time:%20%0A-%20Treatment:%20%0A-%20Number%20of%20guests:%20" target="_blank" rel="noopener">Book on WhatsApp</a>
+      <p class="book-alt">WhatsApp +82 10-3072-1527 · or DM us on <a href="https://www.instagram.com/_coco_aroma" target="_blank" rel="noopener">Instagram</a></p>
+      <p class="book-hours">Open 11:00 – 21:00 · Last booking 21:00</p>
+    </div>
+    <div class="policy reveal">
+      <h3>A note on changes</h3>
+      <p>
+        We don’t take deposits — a courtesy for our traveling guests. If your plans
+        change, please let us know at least <strong>12 hours</strong> before your
+        appointment. Last-minute changes are hard on a small spa like ours, so we
+        ask for your thoughtful cooperation.
+      </p>
+      <p class="policy-pay">
+        Apple Pay, Mastercard, Visa and all major cards accepted, as well as cash.
+        10% VAT is added for card payments.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ 9 · FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="section-head reveal">
+      <p class="eyebrow">Before you ask</p>
+      <h2>FAQ</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details>
+        <summary>Do you speak English?</summary>
+        <p>Enough to take good care of you. Our menu and consultation are in English,
+        and we’re used to welcoming travelers. If anything’s unclear, WhatsApp us anytime.</p>
+      </details>
+      <details>
+        <summary>Do I need to book in advance?</summary>
+        <p>We recommend booking a day or two ahead — evenings fill up first. For same-day,
+        message us; if there’s an open room, you’re welcome.</p>
+      </details>
+      <details>
+        <summary>Can we come together?</summary>
+        <p>Yes — we have private single rooms, and rooms for two or three when you come
+        together. Tell us your group size when you book.</p>
+      </details>
+      <details>
+        <summary>What should I wear or bring?</summary>
+        <p>Nothing special. Gowns and everything you need are prepared. Just arrive
+        10 minutes early for your foot bath.</p>
+      </details>
+      <details>
+        <summary>How do I pay?</summary>
+        <p>Apple Pay, Mastercard, Visa and all major cards, or cash — in Korean won.
+        10% VAT is added for card payments.</p>
+      </details>
+      <details>
+        <summary>Should I tip?</summary>
+        <p>No — tipping isn’t customary in Korea. A kind review means more to us.</p>
+      </details>
+      <details>
+        <summary>Is the oil scented?</summary>
+        <p>Jeju Aroma Therapy uses a water-soluble, unscented oil, so nothing distracts
+        from the work of the therapist’s hands. Any remaining oil is wiped away cleanly
+        to finish.</p>
+      </details>
+      <details>
+        <summary>I’m pregnant / I have a condition. Can I still come?</summary>
+        <p>Please tell us when you book so we can prepare the right care for you —
+        and consult your therapist for treatment specifics.</p>
+      </details>
+      <details>
+        <summary>Can I bring my kids?</summary>
+        <p>Children are welcome with a parent — Kids’ Growth Therapy (60 min) is on our menu.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ 10 · VISIT ============ -->
+  <section class="visit" id="visit">
+    <div class="section-head reveal">
+      <p class="eyebrow">Find us</p>
+      <h2>A short walk from Hamdeok Beach</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-info reveal">
+        <div class="visit-block">
+          <h3>Address</h3>
+          <p>2F, Shinhyup Bank Building,<br>550 Sinbuk-ro, Jocheon-eup,<br>Jeju-si, Jeju Island</p>
+        </div>
+        <div class="taxi-box">
+          <p class="taxi-label">Show this to your taxi driver</p>
+          <p class="taxi-kr" lang="ko">제주 제주시 조천읍 신북로 550<br>신협건물 2층 · 스파 코코아로마</p>
+        </div>
+        <div class="visit-block">
+          <h3>Hours</h3>
+          <p>Open 11:00 – 21:00<br>Last booking 21:00</p>
+        </div>
+        <div class="visit-block">
+          <h3>Parking</h3>
+          <ul>
+            <li>Public lot at the Hamdeok Beach entrance — across from the Hamdeok
+            transfer bus stop, next to U-Dream mart.</li>
+            <li>Or behind the Tous les Jours building.</li>
+            <li>Please avoid the spots in front of Jeongseong Dental (정성치과) —
+            cars there get towed.</li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost" href="https://maps.google.com/?q=SPA+CoCoAroma+550+Sinbuk-ro+Jocheon-eup+Jeju" target="_blank" rel="noopener">Open in Google Maps</a>
+      </div>
+      <div class="visit-map reveal">
+        <iframe
+          title="Map — SPA CoCoAroma, Hamdeok, Jeju"
+          src="https://maps.google.com/maps?q=550%20Sinbuk-ro%2C%20Jocheon-eup%2C%20Jeju-si&z=16&ie=UTF8&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer-brand">SPA CoCoAroma</p>
+    <p class="footer-line">A touch of Jeju that clears what time leaves behind — Fullness (充滿)</p>
+    <nav class="footer-links" aria-label="Links">
+      <a href="https://wa.me/821030721527" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.instagram.com/_coco_aroma" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tripadvisor.com/Attraction_Review-g297885-d32988429-Reviews-Hamdeok_Coco_Aroma-Jeju_Jeju_Island.html" target="_blank" rel="noopener">TripAdvisor</a>
+    </nav>
+    <p class="footer-fine">2F, Shinhyup Bank Building, 550 Sinbuk-ro, Jocheon-eup, Jeju-si, Jeju Island<br>
+    Open 11:00 – 21:00 · © 2026 SPA CoCoAroma</p>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a class="wa-float" href="https://wa.me/821030721527?text=Hello!%20I%27d%20like%20to%20book%20at%20SPA%20CoCoAroma%20:)%0A-%20Name:%20%0A-%20Date%20%26%20time:%20%0A-%20Treatment:%20%0A-%20Number%20of%20guests:%20" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 4.5c-6.36 0-11.52 5.16-11.52 11.52 0 2.03.53 4.01 1.54 5.76L4.5 27.5l5.86-1.53a11.47 11.47 0 0 0 5.68 1.5h.01c6.35 0 11.51-5.16 11.51-11.52 0-3.08-1.2-5.97-3.37-8.14A11.44 11.44 0 0 0 16.04 4.5zm0 21.02h-.01c-1.72 0-3.4-.46-4.87-1.33l-.35-.21-3.48.91.93-3.39-.23-.35a9.55 9.55 0 0 1-1.47-5.13c0-5.28 4.3-9.57 9.58-9.57 2.56 0 4.96 1 6.77 2.8a9.52 9.52 0 0 1 2.8 6.77c0 5.28-4.3 9.57-9.57 9.57zm5.25-7.17c-.29-.14-1.7-.84-1.97-.94-.26-.1-.46-.14-.65.15-.19.29-.74.93-.91 1.12-.17.19-.34.22-.62.07-.29-.14-1.22-.45-2.32-1.43a8.64 8.64 0 0 1-1.6-1.99c-.17-.29-.02-.44.13-.59.13-.13.29-.34.43-.5.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.65-1.56-.89-2.14-.23-.56-.47-.48-.65-.49h-.55c-.19 0-.5.07-.77.36-.26.29-1 .98-1 2.4 0 1.41 1.03 2.78 1.17 2.97.14.19 2.03 3.1 4.91 4.34.69.3 1.22.47 1.64.61.69.22 1.31.19 1.81.11.55-.08 1.7-.7 1.94-1.37.24-.67.24-1.25.17-1.37-.07-.12-.26-.19-.55-.34z"/></svg>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
