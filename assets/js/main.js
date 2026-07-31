@@ -41,6 +41,47 @@
   }
 })();
 
+// Analytics events — robust, independent of GA's fragile engagement ping.
+(function () {
+  function track(name, params) {
+    if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+  }
+
+  // 1) WhatsApp click = the number that matters (fires instantly on click)
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      var where = a.closest('.wa-float') ? 'floating'
+                : a.closest('.card') ? 'treatment_card'
+                : a.closest('.hero') ? 'hero'
+                : a.closest('.nav') ? 'nav'
+                : a.closest('.book') ? 'book_section'
+                : 'other';
+      track('whatsapp_click', { location: where });
+    });
+  });
+
+  // 2) Instagram click (secondary contact path)
+  document.querySelectorAll('a[href*="instagram.com"]').forEach(function (a) {
+    a.addEventListener('click', function () { track('instagram_click', {}); });
+  });
+
+  // 3) "Real visit" signal — mark engaged if they stay 10s OR scroll past the hero,
+  //    so genuine visits register even when the in-app browser closes abruptly.
+  var engaged = false;
+  function markEngaged(reason) {
+    if (engaged) return;
+    engaged = true;
+    track('engaged_view', { reason: reason });
+  }
+  setTimeout(function () { markEngaged('stayed_10s'); }, 10000);
+  window.addEventListener('scroll', function onScroll() {
+    if (window.scrollY > window.innerHeight * 0.6) {
+      markEngaged('scrolled');
+      window.removeEventListener('scroll', onScroll);
+    }
+  }, { passive: true });
+})();
+
 // Reveal-on-scroll (respects prefers-reduced-motion via CSS)
 (function () {
   var els = document.querySelectorAll('.reveal');
