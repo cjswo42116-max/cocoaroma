@@ -1,3 +1,5 @@
+window.__mjsOk = true; // signals the inline safety-reveal that main.js loaded
+
 // Film player — click-to-play facade.
 // Reads data-yt (YouTube ID) or data-mp4 (file path) from .film-frame.
 (function () {
