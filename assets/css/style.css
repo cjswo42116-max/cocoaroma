@@ -70,26 +70,18 @@ h2 { font-size: clamp(1.7rem, 3.6vw, 2.5rem); line-height: 1.2; }
 .vat-note {
   font-family: var(--mono);
   font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #F5EFE3;
-  background: var(--accent);
-  padding: 5px 10px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
   white-space: nowrap;
-  align-self: center;
 }
 .vat-inline {
-  display: inline-block;
-  font-size: 10.5px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  padding: 1px 6px;
-  margin-left: 4px;
-  vertical-align: 1px;
-  white-space: nowrap;
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin-top: 2px;
 }
 
 .menu-jump {
